@@ -1,0 +1,11 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=/usr/lib64
+includedir=${prefix}/include
+
+Name: libcameranvm
+Description: Camera NVM lib.
+URL:
+Version: VERSION
+Libs: -L${libdir} -lcameranvm
+Cflags: -I${includedir}
